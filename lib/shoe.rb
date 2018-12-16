@@ -8,10 +8,12 @@ class Shoe
     @brand = brand
   end
   
-  def brand=(brand)
-    @brand = brand
-    BRANDS << brand
+  def brand
+    @brand
   end
+  
+  def brand=new_brand
+    
   
   
   def cobble
